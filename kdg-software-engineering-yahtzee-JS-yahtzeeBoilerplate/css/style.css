@@ -1,0 +1,28 @@
+body {
+    font-family:sans-serif;
+}
+
+.dice {
+    width: 100px;
+    height: 150px;
+
+    margin: 16px;
+    position: relative;
+
+    background-color: #EEE;
+    float:left;
+}
+
+.dice-value {
+    display: block;
+    font-size:72px;
+    text-align:center;
+}
+
+.dice-functionality {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    text-align: center;
+    padding:12px;
+}
